@@ -46,6 +46,7 @@ button {
     border: none;
     border-radius: 0.2rem;
     transition: 500ms;
+    background-color: rgba(95, 97, 252, 0.795);
   }
   
   button:hover {
@@ -59,6 +60,7 @@ button {
   .primary:hover {
     background-color: var(--blue);
   }
+
   
   
   
