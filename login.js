@@ -1,13 +1,16 @@
-var names = [];
 
 function login() {
+  var email = document.getElementById("email").value;
+  var password = document.getElementById("password").value;
 
-  if (names == "") {
-    alert("Email or Password is incorrect");
-    return false;
-    
-  } else {
-      return true;
-  }
   
+  if (email === "" || password === "") {
+    alert("Email or Password is incorrect");
+  } else {
+
+    location.href = "home.html";
+  }
 }
+
+
+
