@@ -8,7 +8,7 @@ function login() {
 
 
   if (email === "" && password === "") {
-    alert("Email or Password is incorrect");
+    alert("email or password is correct");
   } else {
 
   }
@@ -17,7 +17,7 @@ function login() {
     window.location.href = "home.html"
   }
   else {
-    alert("email & password are incorrect");
+    alert("email & password is incorrect");
   }
 
 }
